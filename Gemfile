@@ -1,6 +1,6 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.1.3'
+gem 'rails', '3.1.1'
 gem 'prototype-rails'
 
 # Uncomment the database that you have configured in config/database.yml
@@ -38,7 +38,7 @@ group :development, :test do
     gem 'ruby-debug19', :platform => :mri_19, :require => 'ruby-debug' if RUBY_VERSION == "1.9.2"
     gem 'awesome_print'
   end
-
+  gem 'heroku'
   gem 'test-unit',          '~> 2.4.3',  :platform => :mri_19, :require => false
   gem 'rspec-rails',        '~> 2.8.0'
   gem 'factory_girl'
